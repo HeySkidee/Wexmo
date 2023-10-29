@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.purchase-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.right-section {
+    flex: 0.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.vertical-line {
+    border-left: 2px solid #fff;
+    height: 100vh;
+}
+
+.beat-section,
+.beat-details {
+    width: 50%;
+    padding: 20px;
+}
+
+.beat-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.beat-details {
+    text-align: left;
+}
+
+.beat-name {
+    font-size: 25px;
+}
+
+.producer-name{
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+}
+.beat-price {
+    font-size: 20px;
+    color: rgb(57, 180, 26);
+}
+
+.wallet-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+.set-pin,
+.connect-wallet {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #029402;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    align-items:flex-end;
+    margin-left: 150px;
+
+}

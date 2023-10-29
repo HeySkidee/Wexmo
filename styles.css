@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px 20px 90px; /* Updated */
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+}
+
+.profile-button {
+    background-color: #029402;
+    color: #fff;
+    padding: 6px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.beats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+
+}
+
+.beat {
+    margin: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 300px;
+    padding: 50px;
+    text-align: left;
+}
+
+.beat-title {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.beat-type {
+    color: grey;
+    font-size: 14px;
+    margin: 6px 0 12px 0;
+}
+
+.beat .buy-button {
+    background-color: rgb(2, 148, 2);
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: #000;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+footer {
+    background-color: #0a0a0a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #fff;
+    margin-top: 30px;
+    height: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    color: #029402;
+}
