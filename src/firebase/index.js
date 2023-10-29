@@ -18,6 +18,8 @@ const firebaseConfig = {
     // Get all our input fields
     email = document.getElementById('email').value
     password = document.getElementById('password').value
+    full_name = document.getElementById('full_name').value
+
 
   
     // Validate input fields
@@ -25,6 +27,10 @@ const firebaseConfig = {
       alert('Email or Password is Outta Line!!')
       return
       // Don't continue running the code
+    }
+    if (validate_field(full_name) == false ) {
+      alert('One or More Extra Fields is Outta Line!!')
+      return
     }
 
    
@@ -40,6 +46,7 @@ const firebaseConfig = {
       // Create User data
       var user_data = {
         email : email,
+        full_name : full_name,
         last_login : Date.now()
       }
   
